@@ -63,3 +63,16 @@ Open up `brew.sh`, e.g. with VSCode as such:
 Append the link found on Brew Formulae to the list with `# Tooling` heading.
 
 ## Update your dotfiles
+
+Check which files have been changed with:
+
+```shell
+▶ yadm status
+```
+
+If there is any changes, run these commands:
+
+```shell
+▶ yadm commit -a -m "<your description">
+▶ yadm push
+```

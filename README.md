@@ -4,7 +4,7 @@ This is a fork of [cobraz/dotfiles](https://github.com/cobraz/dotfiles).
 
 ## Setting up a new machine
 
-With a new machine, you first have to install `Homebrew`. You can do that
+With a new machine, you first have to install `Homebrew` and setup [your SSH key](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent). You can do that
 with this command:
 
 ```shell

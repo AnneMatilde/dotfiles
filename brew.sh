@@ -73,14 +73,14 @@ brew install nmap
 brew install figma
 
 # Tooling
-brew cask install google-chrome
-brew cask install google-drive-file-stream
-brew cask install adobe-creative-cloud
-brew cask install visual-studio-code
-brew cask install iterm2
-brew cask install spotify
-brew cask install slack
-brew cask install sonos
+brew install --cask google-chrome
+brew install --cask google-drive-file-stream
+brew install --cask adobe-creative-cloud
+brew install --cask visual-studio-code
+brew install --cask iterm2
+brew install --cask spotify
+brew install --cask slack
+brew install --cask sonos
 
 # Github CLI
 brew install gh

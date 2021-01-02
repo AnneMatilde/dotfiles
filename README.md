@@ -1,2 +1,65 @@
-# dotfiles
-My Computer
+# Anne Matilde's Dotfiles
+
+This is a fork of [cobraz/dotfiles](https://github.com/cobraz/dotfiles).
+
+## Setting up a new machine
+
+With a new machine, you first have to install `Homebrew`. You can do that
+with this command:
+
+```shell
+▶ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+Next you need to clone this repository to your `$HOME` folder. Best practice is
+to use `YADM` (a tool for managing dotfiles).
+
+That is easily installed with brew, as such:
+
+```shell
+▶ brew install yadm
+```
+
+Then you need to clone this repository. You can read how to get started with YADM
+under basics -> [Getting started](https://yadm.io/docs/getting_started).
+
+Or, just type this in your terminal:
+
+```shell
+▶ yadm clone git@github.com:AnneMatilde/dotfiles.git
+```
+
+You should have all your files located in `$HOME` at this point. All you have to do
+now is bootstrap! 🎉
+
+```shell
+▶ ./bootstrap.sh
+```
+
+To install the Mac OS defaults, run this command:
+
+```shell
+▶ ./.macos
+```
+
+## Append Brew packages
+
+Step one is to find the package (software) you'd like to install and
+append to the Dotfiles. You can search here: https://formulae.brew.sh/cask/
+
+Next you should install that package on your current machine, like this:
+
+```shell
+brew install --cask spotify
+```
+
+To make sure you remember which packages you use,
+Open up `brew.sh`, e.g. with VSCode as such:
+
+```shell
+▶ code ~/brew.sh
+```
+
+Append the link found on Brew Formulae to the list with `# Tooling` heading.
+
+## Update your dotfiles

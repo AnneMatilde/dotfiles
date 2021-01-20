@@ -71,6 +71,7 @@ brew install ghq
 brew install emacs
 brew install nmap
 brew install figma
+brew install pulumi
 
 # Tooling
 brew install --cask google-chrome

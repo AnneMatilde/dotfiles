@@ -82,6 +82,7 @@ brew install --cask iterm2
 brew install --cask spotify
 brew install --cask slack
 brew install --cask sonos
+brew install --cask google-cloud-sdk
 
 # Github CLI
 brew install gh

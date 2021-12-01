@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source brew.sh
+brew bundle 
 source ./.vscode/vscode.sh
 
 # Install Oh My Zsh
